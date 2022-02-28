@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Projeto da trilha Discover da Rocketseat na implementação de um Blog website">
@@ -9,6 +9,36 @@
     <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-title">
+                    <img src="./src/assets/images/logo.svg" alt="Logo da marca">
+                </div>
+                <div class="navbar-content">
+                    <ul>
+                        <li>Home</li>
+                        <li>Sobre</li>
+                        <li>Categorias</li>
+                        <li>Contato</li>
+                    </ul>
+                </div>
+                <div class="navbar-input__search">
+                    <input type="text" id="name" name="name" required minlength="5" maxlength="30">
+                    <img src="./src/assets/images/search.svg" alt="Ícone de buscar um blog">
+                </div>
+
+                <!-- <div class="navbar-input__search">
+                    <div>
+                        <input type="text" id="name" name="name" required minlength="5" maxlength="30">
+                    </div>
+                    <div class="navbar-icon__search">
+                        <img src="./src/assets/images/search.svg" alt="Ícone de buscar um blog">
+                    </div>      
+                </div> -->
+                
+            </div>
+        </div>
+    </header>
 </body>
 </html>

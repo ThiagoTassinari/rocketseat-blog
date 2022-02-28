@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+    font-family: 'Roboto', 'Poppins', sans-serif;
+}

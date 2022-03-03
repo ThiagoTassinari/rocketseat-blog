@@ -25,7 +25,8 @@ header {
 .navbar-content li {
     color: #FFFFFF;
     padding: 0 21px;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .navbar-input__search input {
@@ -44,4 +45,51 @@ header {
 
 .navbar-input__search img {
     padding-left: 15px;
+}
+
+.container-content__blog {
+    margin-left: 270px;
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: Poppins;
+    color: var(--button-bg);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 54px;
+
+}
+
+.content-paragraph {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+
+}
+
+a {
+    color: var(--button-bg);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+a img {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-feature__image {
+    padding-right: 266px;
+    padding-top: 90px
 }
